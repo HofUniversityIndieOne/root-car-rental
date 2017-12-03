@@ -1,0 +1,14 @@
+#############################
+# TYPO3 CMS Base Distribution
+#############################
+.DS_Store
+.idea
+!.gitkeep
+/vendor
+/web/fileadmin/_temp_
+/web/fileadmin/_processed_
+/web/fileadmin/user_upload/_temp_
+/web/index.php
+/web/typo3
+/web/typo3conf
+/web/typo3temp
