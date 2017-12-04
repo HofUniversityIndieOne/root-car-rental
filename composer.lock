@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfcbd7676686bc509bbf26dd4078da4e",
+    "content-hash": "a474eac3a7722f4c58ae1894f5baac5b",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -56,6 +56,73 @@
                 "text"
             ],
             "time": "2014-05-19T10:25:02+00:00"
+        },
+        {
+            "name": "dmitryd/typo3-realurl",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dmitryd/typo3-realurl.git",
+                "reference": "dbafbbae049f1dfa66c4510970a938f191fd10c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dmitryd/typo3-realurl/zipball/dbafbbae049f1dfa66c4510970a938f191fd10c1",
+                "reference": "dbafbbae049f1dfa66c4510970a938f191fd10c1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0",
+                "typo3/cms-core": ">=6.2.0,<8.7.999"
+            },
+            "conflict": {
+                "bednee/cooluri": ">0.0.1",
+                "helhum/realurl": ">0.0.1",
+                "typo3-ter/cooluri": ">=0.0.1",
+                "typo3-ter/simulatestatic": ">0.0.1"
+            },
+            "replace": {
+                "realurl": "self.version",
+                "typo3-ter/realurl": "self.version"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.0"
+            },
+            "suggest": {
+                "typo3-ter/static-info-tables": ">=6.2.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitryDulepov\\Realurl\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Dulepov",
+                    "email": "dmitry.dulepov@gmail.com",
+                    "homepage": "http://www.dmitry-dulepov.com/"
+                }
+            ],
+            "description": "Speaking URLs for TYPO3",
+            "homepage": "https://github.com/dmitryd/typo3-realurl",
+            "keywords": [
+                "RealURL",
+                "cms",
+                "typo3"
+            ],
+            "time": "2017-10-05T00:00:00+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -956,6 +1023,54 @@
             "time": "2017-11-19T18:27:41+00:00"
         },
         {
+            "name": "in2code/femanager",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/einpraegsam/femanager.git",
+                "reference": "ad344254ad5024a4fe68b6690088c801a05bbb8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/einpraegsam/femanager/zipball/ad344254ad5024a4fe68b6690088c801a05bbb8e",
+                "reference": "ad344254ad5024a4fe68b6690088c801a05bbb8e",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms": ">=8.7.0 <9.0.0"
+            },
+            "replace": {
+                "femanager": "self.version",
+                "typo3-ter/femanager": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "In2code\\Femanager\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Kellner",
+                    "email": "alexander.kellner@in2code.de"
+                }
+            ],
+            "description": "Modern TYPO3 Frontend User Registration.",
+            "homepage": "https://forge.typo3.org/projects/extension-femanager",
+            "keywords": [
+                "fe_users",
+                "form",
+                "registration",
+                "sr_feuser_register",
+                "typo3"
+            ],
+            "time": "2017-11-25T18:08:18+00:00"
+        },
+        {
             "name": "mso/idna-convert",
             "version": "v1.1.0",
             "source": {
@@ -1551,16 +1666,16 @@
         },
         {
             "name": "typo3/cms",
-            "version": "dev-TYPO3_8-7",
+            "version": "v8.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/TYPO3.CMS.git",
-                "reference": "d79d41884dd799258d6453ccd5a67488dee4604b"
+                "reference": "90f1c05c306f4633d7561cb60534b99e394f9e22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/d79d41884dd799258d6453ccd5a67488dee4604b",
-                "reference": "d79d41884dd799258d6453ccd5a67488dee4604b",
+                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/90f1c05c306f4633d7561cb60534b99e394f9e22",
+                "reference": "90f1c05c306f4633d7561cb60534b99e394f9e22",
                 "shasum": ""
             },
             "require": {
@@ -1749,7 +1864,7 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2017-11-27T18:27:07+00:00"
+            "time": "2017-10-10T16:08:44+00:00"
         },
         {
             "name": "typo3/cms-cli",
@@ -1957,7 +2072,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "typo3/cms": 20,
         "hof-university-indie/car-rental": 20,
         "hof-university-indie/site-package-basics": 20,
         "friendsoftypo3/extension-builder": 20
