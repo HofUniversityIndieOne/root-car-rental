@@ -4,6 +4,7 @@
 .DS_Store
 .idea
 !.gitkeep
+/.env
 /vendor
 /web/fileadmin/_temp_
 /web/fileadmin/_processed_
@@ -11,4 +12,5 @@
 /web/index.php
 /web/typo3
 /web/typo3conf
+!/web/typo3conf/AdditionalConfiguration.php
 /web/typo3temp

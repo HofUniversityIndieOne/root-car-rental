@@ -16,7 +16,8 @@
 		"in2code/femanager": "^3.3",
 		"typo3/cms-felogin": "^8.7",
 		"dmitryd/typo3-realurl": "^2.3",
-		"hof-university-indie/site-package-bootstrap": "dev-master"
+		"hof-university-indie/site-package-bootstrap": "dev-master",
+		"symfony/dotenv": "^4.0"
 	},
 	"extra": {
 		"typo3/cms": {
