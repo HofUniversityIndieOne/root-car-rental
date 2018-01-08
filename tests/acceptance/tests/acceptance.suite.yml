@@ -7,6 +7,16 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
+        - WebDriver:
             url: http://new-site.indie.anyhost.it/
         - \Helper\Acceptance
+    config:
+      WebDriver:
+        browser: phantomjs
+        window_size: maximize
+        # iPhone8 size
+        # window_size: 375x667
+        port: 4444
+        restart: false
+        clear_cookies: false
+        log_js_errors: false

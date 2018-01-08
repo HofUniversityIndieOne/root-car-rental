@@ -25,5 +25,7 @@ class CarRentalCest
         $I->see('Login', $navBarSelector);
         $I->click('Products', $navBarSelector);
         $I->see('Rent a Car');
+        // save screenshot to tests/_output/debug/
+        $I->makeScreenshot('products_page');
     }
 }
