@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad1f8b0103874761ab7707556841189d",
+    "content-hash": "f285550c72c4637f144100466f1caa4b",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1042,7 +1042,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HofUniversityIndieOne/car-rental.git",
-                "reference": "88a72cbc814b686e5478ba0c58ca2fee2247be5e"
+                "reference": "696691ae3d58b6970c6f0e68ee5910d18fac7af3"
             },
             "require": {
                 "typo3/cms-core": "^8.7.1"
@@ -1060,7 +1060,7 @@
                 }
             ],
             "description": "Car Rental TYPO3 example",
-            "time": "2017-12-20T08:30:34+00:00"
+            "time": "2018-01-08T18:28:54+00:00"
         },
         {
             "name": "hof-university-indie/site-package-bootstrap",
