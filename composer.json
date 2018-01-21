@@ -4,7 +4,9 @@
 		{ "type": "git", "url": "https://github.com/HofUniversityIndieOne/site-package-basics.git" },
 		{ "type": "git", "url": "https://github.com/HofUniversityIndieOne/site-package-bootstrap.git" },
 		{ "type": "git", "url": "https://github.com/HofUniversityIndieOne/site-package-car-rental.git" },
-		{ "type": "git", "url": "https://github.com/HofUniversityIndieOne/car-rental.git" }
+		{ "type": "git", "url": "https://github.com/HofUniversityIndieOne/car-rental.git" },
+		{ "type": "git", "url": "https://github.com/ohader/nreach-t3-base.git" },
+		{ "type": "git", "url": "https://github.com/ohader/nreach-t3-vision.git" }
 	],
 	"name": "typo3/cms-base-distribution",
 	"description" : "TYPO3 CMS Base Distribution",
@@ -22,7 +24,8 @@
 		"in2code/femanager": "^3.3",
 		"dmitryd/typo3-realurl": "^2.3",
 		"hof-university-indie/car-rental": "dev-master",
-		"hof-university-indie/site-package-bootstrap": "dev-master"
+		"hof-university-indie/site-package-bootstrap": "dev-master",
+		"nreach/nreach-t3-vision": "^1.0"
 	},
 	"extra": {
 		"typo3/cms": {

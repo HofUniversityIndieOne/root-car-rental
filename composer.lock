@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f285550c72c4637f144100466f1caa4b",
+    "content-hash": "0702dbac199dde8eed3af88d85d9f597",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1182,6 +1182,141 @@
                 "php"
             ],
             "time": "2016-06-19T18:08:43+00:00"
+        },
+        {
+            "name": "nreach/nreach-base",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nreach/nreach-base.git",
+                "reference": "e8a1930980ceb8aaccbb13690c065c008ce74cc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nreach/nreach-base/zipball/e8a1930980ceb8aaccbb13690c065c008ce74cc6",
+                "reference": "e8a1930980ceb8aaccbb13690c065c008ce74cc6",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nreach\\Base\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes Goslar",
+                    "email": "johnny@nreach.io"
+                }
+            ],
+            "description": "nreach base php library",
+            "keywords": [
+                "php"
+            ],
+            "time": "2017-07-06T16:46:47+00:00"
+        },
+        {
+            "name": "nreach/nreach-t3-base",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nreach/nreach-t3-base.git",
+                "reference": "019a4f35b71bc43b24ea78de74d108cbfac9c8be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nreach/nreach-t3-base/zipball/019a4f35b71bc43b24ea78de74d108cbfac9c8be",
+                "reference": "019a4f35b71bc43b24ea78de74d108cbfac9c8be",
+                "shasum": ""
+            },
+            "require": {
+                "nreach/nreach-base": "~1.0",
+                "typo3/cms": "^8.7 || 9.x-dev"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nreach\\T3Base\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes Goslar",
+                    "email": "johnny@nreach.io"
+                }
+            ],
+            "description": "nreach",
+            "keywords": [
+                "images",
+                "semantic"
+            ],
+            "time": "2017-09-19T13:49:45+00:00"
+        },
+        {
+            "name": "nreach/nreach-t3-vision",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nreach/nreach-t3-vision.git",
+                "reference": "2f3ad01c240b6916d7e1e4f4643100158beef610"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nreach/nreach-t3-vision/zipball/2f3ad01c240b6916d7e1e4f4643100158beef610",
+                "reference": "2f3ad01c240b6916d7e1e4f4643100158beef610",
+                "shasum": ""
+            },
+            "require": {
+                "nreach/nreach-t3-base": "~1.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nreach\\T3Vision\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes Goslar",
+                    "email": "johnny@nreach.io"
+                }
+            ],
+            "description": "nreach",
+            "keywords": [
+                "images",
+                "semantic"
+            ],
+            "time": "2017-08-31T11:42:01+00:00"
         },
         {
             "name": "psr/http-message",
