@@ -8,9 +8,16 @@
 		{ "type": "git", "url": "https://github.com/ohader/nreach-t3-base.git" },
 		{ "type": "git", "url": "https://github.com/ohader/nreach-t3-vision.git" }
 	],
-	"name": "typo3/cms-base-distribution",
-	"description" : "TYPO3 CMS Base Distribution",
-	"license": "GPL-2.0+",
+	"name": "hof-university-indie/car-rental-root",
+	"description" : "Car Rental Project",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Oliver Hader",
+			"role": "Developer",
+			"email": "oliver@typo3.org"
+		}
+ ],
 	"require": {
 		"typo3/cms": "^8.7",
 		"typo3/cms-form": "^8.7",
